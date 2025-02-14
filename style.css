@@ -1,0 +1,142 @@
+#hero{
+    height: 100vh;
+    background-image: url('./assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3674b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1{
+    font-family: "Caveat", serif;
+    font-size: 57.9334px;
+    letter-spacing: -1.15867px;
+    line-height: 57px;
+}
+
+.intro h2{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 31.6px;
+    letter-spacing: -0.632px;
+    line-height: 37px;
+}
+
+#intro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.greetings img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;;
+}
+
+.greetings h1{
+    font-size: 57.9334px;
+    color: rgb(161, 227, 249);
+}
+
+#skills{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 31.6px;
+}
+
+#skills h1{
+    color: rgb(54, 116, 181);
+    
+}
+
+.list{
+    margin: 0 500px;
+    font-size: 27px;
+}
+
+.item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item img{
+    height: 200px;
+    width: 200px;
+} 
+
+.text{
+    margin-left: 100px;
+}
+
+.heading{
+    color: rgb(87, 143, 202);
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+.content{
+    width: 600px;
+    font-weight: 510;
+    font-family: "Roboto", serif;
+}
+
+#contact{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 500px;
+}
+
+.message1{
+    color: rgb(54, 116, 181);
+    font-size: 43px;
+    font-family: "Poppins", serif;
+    margin-bottom: 100px;
+}
+
+.message2{
+    color: rgb(161, 227, 249);
+    font-size: 33px;
+    font-family: "Poppins", serif;
+    margin-bottom: 50px;
+}
+
+.message3{
+    font-size: 24px;
+    font-family: "Roboto", serif;
+    width: 75%;
+}
+
+#contact2{
+    height: 200px;
+    background-color: rgb(161, 227, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3674b5;
+    font-size: 19px;
+}
+
+
+#contact2 > a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.icon{
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+}
